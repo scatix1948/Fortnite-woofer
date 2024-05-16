@@ -30,7 +30,7 @@ cls
 setlocal enableextensions
 set FilesCount=0
 for %%x in (C:\hassanunban\unbanned_accounts\*.json) do set /a FilesCount+=1
-title H. SPOOFER EAC
+title S. SPOOFER EAC
 color 5
 type doh.txt
 echo.
