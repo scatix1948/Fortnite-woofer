@@ -1,5 +1,5 @@
 @echo off
-title hassan spoofer
+title scatix spoofer
 ::resize window
 %extd% /getconsoletitle
 %extd% /resizewindow "%result%" 0 0 1129 520
@@ -22,7 +22,7 @@ if [%1]==[] goto noarg
 goto %1
 :noarg
 
-md "C:\H.Unban"
+md "C:\S.Unban"
 cls
 
 
@@ -30,20 +30,19 @@ cls
 setlocal enableextensions
 set FilesCount=0
 for %%x in (C:\hassanunban\unbanned_accounts\*.json) do set /a FilesCount+=1
-title H. SPOOFER EAC
+title S. SPOOFER EAC
 color 5
 type doh.txt
 echo.
 
 
-echo '##::::'##::::'###:::::'######:::'######:::::'###::::'##::: ##:
-echo  ##:::: ##:::'## ##:::'##... ##:'##... ##:::'## ##::: ###:: ##:
-echo  ##:::: ##::'##:. ##:: ##:::..:: ##:::..:::'##:. ##:: ####: ##:
-echo  #########:'##:::. ##:. ######::. ######::'##:::. ##: ## ## ##:
-echo  ##.... ##: #########::..... ##::..... ##: #########: ##. ####:
-echo  ##:::: ##: ##.... ##:'##::: ##:'##::: ##: ##.... ##: ##:. ###:
-echo  ##:::: ##: ##:::: ##:. ######::. ######:: ##:::: ##: ##::. ##:
-echo ..:::::..::..:::::..:::......::::......:::..:::::..::..::::..::
+echo ..######...######.....###....########.####.##.....##
+echo .##....##.##....##...##.##......##.....##...##...##.
+echo .##.......##........##...##.....##.....##....##.##..
+echo ..######..##.......##.....##....##.....##.....###...
+echo .......##.##.......#########....##.....##....##.##..
+echo .##....##.##....##.##.....##....##.....##...##...##.
+echo ..######...######..##.....##....##....####.##.....##
 echo.
 echo.
 ECHO 1. Spoof
@@ -119,7 +118,7 @@ pause
 goto fixes
 
 :fixes
-title hassan HWID b2 - Fixes
+title scatix HWID b2 - Fixes
 type doh.txt
 echo General Fixes
 echo.
